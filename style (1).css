@@ -1,0 +1,102 @@
+body {
+    display: block;
+    margin: 8px;
+    background-image: url("images/about_bg.jpg");
+    background-image: no-repeat;
+
+}
+h1 {
+  text-align: center;
+  color: #66ff66;
+  text-shadow: 3px 2px #009933;
+  font-family: "Script", serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  font-style: oblique;
+}
+
+h2 {
+  text-align: center;
+  color: #ff0055;
+  text-shadow: 3px 2px  #99003d;
+  font-family: "Script", serif;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  font-style: oblique;
+}
+p{
+  text-align: center;
+  color: #660066;
+text-shadow: 1px 1px  #000000;
+  font-family: "Times New Roman", serif;
+  font-size: 30px;
+}
+
+.content{
+margin: 100px;
+border: 50px;
+}
+
+.an-image{
+text-align: center;
+}
+
+div.gallery {
+  margin: 20px;
+  border: 4px solid #66ff66;
+  float: left;
+  width: 600px;
+  height: 450px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  border: 20px;
+  text-align: center;
+  font-size: 22px;
+  color: #99003d;
+  text-shadow: 1px 1px  #000000;
+}
+
+.page-nav ul {    
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  background-color: #66ff66;
+  width:100%;
+  top:0;
+  transition: top 0.3s;
+}
+
+.page-nav li {
+  float: left;
+}
+
+.page-nav li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+.page-nav li a:hover {
+  color: darkblue;
+}
+
+.page-nav .icon {
+  display: none;
+}

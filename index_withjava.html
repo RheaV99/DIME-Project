@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+<title>Some title</title>
+    <meta charset="UTF-8"/>
+	<link rel="stylesheet" href="temp.css" type="text/css" /> 
+</head>
+<body>
+    <nav class="page-nav" id="myNav">
+        <ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Something">Something</a></li>
+			<li><a href="Something">Something</a></li>
+			<li><a href="Something">Something</a></li>
+			<li><a href="Something">Something</a></li>			
+            <li>    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a>
+            </li>               
+            </ul>
+    </nav>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+ <script>
+    $(window).scroll(function(){
+	  var scroll = $(window).scrollTop();
+	  $(".header-content img").css({
+	    width:(100 + scroll/5) + "%"
+	  })
+	})
+  </script>
+  <div class="header-content">
+				<img src="landmarks.jpg" alt="Austria">
+            </div>
+	<div class="title1"><h1>Some title</h1></div>
+	<div class="images">
+		<div class="images1">
+		    <img class="prod-img" src="" alt="future img"  width="300" height="200"/></br>
+		    <span class="h41"><h4>Product name</h4></span>
+			<p>Description</p></br>
+		</div>
+
+		<div class="images1">
+		    <img class="prod-img" src="" alt="future img"  width="300" height="200"/></br>
+		    <span class="h41"><h4>Product name</h4></span>
+			<p>Description</p></br>
+		</div>
+		
+		<div class="images1">
+		    <img class="prod-img" src="" alt="future img"  width="300" height="200"/></br>
+		    <span class="h41"><h4>Product name</h4></span>
+			<p>Description</p></br>
+		</div>
+		
+		<div class="images1">
+		    <img class="prod-img" src="" alt="future img"  width="300" height="200"/></br>
+		    <span class="h41"><h4>Product name</h4></span>
+			<p>Description</p></br>
+		</div>
+		
+		<div class="images1">
+		    <img class="prod-img" src="" alt="future img"  width="300" height="200"/></br>
+		    <span class="h41"><h4>Product name</h4></span>
+			<p>Description</p></br>
+		</div>
+		
+		<div class="images1">
+		    <img class="prod-img" src="" alt="future img"  width="300" height="200"/></br>
+		    <span class="h41"><h4>Product name</h4></span>
+			<p>Description</p></br>
+		</div>
+	</div>
+</body>
